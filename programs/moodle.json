@@ -1,0 +1,18 @@
+{
+    "snippet": "More Effective Training. Higher Impact. Lower Cost.",
+        "name":"moodle",
+    "features": {
+        "speciality": "Refined Training gives you everything  you need to rapidly create, manage, deploy, and track highly   engaging online training everyone can access instantly.",
+        "Connect-to-Moodle": "The world's most flexible, live virtual classroom solution (Adobe® Connect™) meets the world's most popular LMS (Moodle®) in a seamless integration from Refined Data Solutions!"
+    },
+    "images": [
+        "images/moodle_1.png",
+        "images/moodle_2.png",
+        "images/moodle_3.png"
+    ],
+    "drumrolls": {
+        "Social Learning": "Create a social learning environment with optional forums, wikis and blogs.",
+        "Accountability": "Track who's watching videos of recordings of missed classes and grade accordingly.",
+        "Robust Administration": "Complete access to all of your site's administration tools, available 24/7."
+    }
+}

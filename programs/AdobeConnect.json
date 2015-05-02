@@ -1,0 +1,17 @@
+{
+    "snippet": "Communicate your ideas powerfully using Adobe® Connect web conferencing software",
+        "name":"Adobe Connect",
+    "features": {
+        "speciality": "We are an Authorized Adobe® Reseller. But we do more than just sell you the software - we can implement it and train your entire team, too!"
+    },
+    "images": [
+        "images/adobe_connect_1.png",
+        "images/adobe_connect_2.png",
+        "images/adobe_connect_3.png"
+    ],
+    "drumrolls": {
+        "VantagePoint": "View and interact with all your students while you present online, just like a real classroom but with no real estate used in Connect. A game-changer for online learning.",
+        "rPhone": "The most advanced teleconferencing application available for Adobe Connect. Supports audio breakouts, voice-to-text transcription, SIP phones and much more.",
+        "talkingStick": "Stream HD video from unlimited webcams and remote sources including video cameras, desktop windows, video capture devices, or any other USB video device."
+    }
+}

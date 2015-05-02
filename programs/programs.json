@@ -1,0 +1,16 @@
+[
+    {"name": "Adobe Connect",
+     "snippet": "Silver Partner",
+      "id":"AdobeConnect",
+        "imageUrl":"images/adobe-connect-9-mnemonic-logo.png"},
+    {"name": "Moodle",
+     "snippet": "Training and eLearning",
+         "id":"Moodle",
+        "imageUrl":"images/moodle.png"},
+
+    {"name": "Adobe CustomPod",
+     "snippet": "Custom connection",      
+     "id":"AdobeCustom",
+        "imageUrl":"images/adobe.png"}
+
+  ]

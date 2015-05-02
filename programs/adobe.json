@@ -1,0 +1,17 @@
+{
+    "snippet": "We dont sell COnnect Pods, we make em better",
+    "name":"Adobe Connet Pod",
+    "features": {
+        "speciality": "Connect-2-adobe"
+    },
+    "images": [
+        "images/adobe_1.png",
+        "images/adobe_2.png",
+        "images/adobe_3.png"
+    ],
+    "drumrolls": {
+        "Footprints": "The Carbon and Cost Savings Calculator for Adobe Connect.",
+        "hands up": "Make your Adobe Connect meetings fun and interactive.",
+        "Cachet": "A jitter-free HD video playback app that makes sharing web videos in Adobe Connect fast and easy even with users with unreliable connectivity."
+    }
+}

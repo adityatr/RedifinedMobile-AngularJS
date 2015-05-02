@@ -1,0 +1,44 @@
+ <nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" ng-click="navbarCollapsed = !navbarCollapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="images/refined_data_top_logo.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" collapse="navbarCollapsed">
+      <!-- your normal collapsable content here -->
+    </div>
+</nav>
+
+<div ng-controller="CarouselDemoCtrl">
+  <div style="height: 20%">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;width:70%;height:400px">
+        <div class="carousel-caption">
+          <p>{{slide.text}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+
+</div>
+Search: <input ng-model="query"> 
+<div class="row" ng-controller="listOfProduct">
+   <!--  <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div> -->
+    <ul  ng-repeat="program in programs | filter:query">
+      <div class="col-sm-4">
+       <a href="#/programs/{{program.id}}" class="thumb"><img ng-src="{{program.imageUrl}}" style="margin:auto;width:200px;height:200px"></a>
+            <a href="#programs/{{program.id}}">
+              {{program.name}} </a> 
+    
+  </ul>
+  </div>

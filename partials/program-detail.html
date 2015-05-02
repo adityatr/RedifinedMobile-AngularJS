@@ -1,0 +1,27 @@
+<img ng-src="{{program.images[0]}}" class="program">
+
+<h1>{{program.name}}</h1>
+
+<p>{{program.snippet}}</p>
+
+<ul class="program-thumbs">
+  <li ng-repeat="img in program.images">
+    <img ng-src="{{img}}">
+  </li>
+</ul>
+
+<ul class="specs">
+  <li>
+    <span>Nice things</span>
+    <dl>
+      <dt>DrumRolls</dt>
+      <dd ng-repeat="drumroll in program.drumrolls">{{drumroll}}</dd>
+    </dl>
+  </li>
+    
+  <li>
+    <span> Features</span>
+    <dd ng-repeat="feature in program.features">{{feature}}</dd>
+    
+  </li>
+</ul>
