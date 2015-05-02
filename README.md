@@ -1,4 +1,10 @@
 # RedifinedMobile-AngularJS
+You need
+python3
+angular-1.3.15
+bootstrap-3.3.4-dist
+bootstrap-gh-pages aka bootstrap UI  
+ 
 Get python3- Install
 
 next up 
