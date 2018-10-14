@@ -16,4 +16,4 @@ go to
 http://localhost:8080/
 
 See the design principle and they way i implemented AngularJS and Bootstrap UI
-This was done in a matter of 3 hours. Fixes may be done at a later stage
+This was done in a matter of 3 hours. Fixes may be done at a later stage.
